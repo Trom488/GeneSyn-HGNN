@@ -18,7 +18,7 @@ GeneSyn-HGNN couples motif-guided multi-relational hypergraph encoding with a st
 ## Model Overview
 
 <p align="center">
-  <img src="assets/overview.png" alt="Overview of the GeneSyn-HGNN architecture" width="100%">
+  <img src="overview.png" alt="Overview of the GeneSyn-HGNN architecture" width="100%">
 </p>
 
 RHGNN1 encodes motif-defined drug-protein relations. RHGNN2 encodes the drug-cell hypergraph constructed from training-fold synergy and antagonism labels. The two structural drug views are averaged before decoding. CCG is applied first, followed by a base bilinear score and the parallel GSK and GSA terms.

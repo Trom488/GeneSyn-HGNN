@@ -31,8 +31,6 @@ GeneSyn-HGNN/
 ├── Synergy_Models.py      # BioEncoder, RHGNN, CCG, GSK, and GSA
 ├── Data_Process.py        # Data loading, labeling, splitting, and hypergraph construction
 ├── Config.py              # Command-line arguments and defaults
-├── gene_interpret.py      # Gene-attention analysis
-├── causal_intervention.py # Gene-level intervention analysis
 ├── analysis/              # Ablations, learning curves, clustering, and plotting scripts
 ├── DATA/                  # Expected input data directory
 └── requirements.txt       # Core Python dependencies
